@@ -51,6 +51,48 @@ main article .interview {
   main article .interview h5 {
     font-size: 2.8em; }
 
+.sns {
+  margin: 100px auto 200px;
+  width: 850px;
+  overflow: hidden;
+  position: relative; }
+  .sns a {
+    display: inline-block;
+    margin: 0 60px; }
+  .sns .icon {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #eee;
+    position: relative; }
+    .sns .icon:last-child {
+      margin-right: 0; }
+    .sns .icon .fa {
+      width: 50px;
+      font-size: 60px;
+      position: absolute;
+      top: 50%;
+      margin-top: -30px;
+      left: 50%;
+      margin-left: -23px;
+      color: #fff; }
+
+.link {
+  width: 850px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 100px; }
+  .link .con {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    background-color: #000; }
+    .link .con:last-child {
+      margin-right: 0; }
+
 footer {
   width: 100%;
   height: 180px; }

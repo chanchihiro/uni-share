@@ -35,10 +35,17 @@ header{
 	background-color: #888;
 	height: 100vh;
 	.main-visual{
+		.img-home{
+			background-image: url(../img/homebig1.png);
+			background-size: cover;
+			height: 100%;
+			background-attachment:fixed;
+		}
 		height: 100vh;
 		width: 100%;
 		overflow: hidden;
-		// background-color: red;
+		background-image: url(../img/homebig1.png);
+		background-position: fixed;
 		position: relative;
 		top: 0;
 		.text{
@@ -60,7 +67,7 @@ header{
 }
 
 main{
-	.msg{
+	.msg, .msg2{
 		height: 100vh;
 		background-color: #000;
 		color: #fff;
@@ -72,10 +79,119 @@ main{
 	}
 	.big-com1{
 		height: 100vh;
+		overflow: hidden;
+		position: relative;
 		.img-home{
 			// background-color: #000;
+			overflow: hidden;
 			height: 100%;
-			background-image: url("");
+			background-image: url("../img/cover1.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment:fixed;
+		}
+		.comment{
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			top: 35%;
+			color: #fff;
+		}
+	}
+	.small-com1{
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+		.img-home{
+			// background-color: #000;
+			overflow: hidden;
+			height: 100%;
+			background-image: url("../img/cover2.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment:fixed;
+		}
+		.left-comment{
+			position: absolute;
+			width: 50%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			box-sizing:border-box;
+			padding:3%;
+			background-color: rgba(0,0,0,0.9);
+			color: #fff;
+		}
+	}
+	.small-com2{
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+		.img-home{
+			// background-color: #000;
+			overflow: hidden;
+			height: 100%;
+			background-image: url("../img/cover3.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment:fixed;
+		}
+		.right-comment{
+			position: absolute;
+			width: 50%;
+			height: 100%;
+			right: 0;
+			top: 0;
+			box-sizing:border-box;
+			padding:3%;
+			background-color: rgba(0,0,0,0.9);
+			color: #fff;
+		}
+	}
+	.big-com2{
+		height: 50vh;
+		overflow: hidden;
+		position: relative;
+		.img-home{
+			overflow: hidden;
+			height: 100%;
+			background-image: url("../img/cover1.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment:fixed;
+		}
+		.comment{
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			top: 35%;
+			color: #fff;
+			text-align: center;
+		}
+	}
+	.small-com3{
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+		.img-home{
+			// background-color: #000;
+			overflow: hidden;
+			height: 100%;
+			background-image: url("../img/cover3.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment:fixed;
+		}
+		.right-comment{
+			position: absolute;
+			width: 70%;
+			height: 100%;
+			right: 0;
+			top: 0;
+			box-sizing:border-box;
+			padding:3%;
+			background-color: rgba(0,0,0,1);
+			color: #fff;
 		}
 	}
 }
