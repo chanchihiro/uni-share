@@ -3,14 +3,13 @@
   padding: 0; }
 
 .container {
-  width: 900px;
+  width: 850px;
   margin: 0 auto;
   overflow: hidden; }
 
 nav {
   position: fixed;
   top: 0;
-  background-color: #d8d8d8;
   width: 100%;
   z-index: 30;
   border-bottom: 1px solid #000; }
@@ -19,14 +18,13 @@ nav {
     padding: 1em 0; }
 
 header {
-  background-color: #888;
   height: 100vh;
   margin-top: 4em; }
   header .main-visual {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    background-color: red; }
+    background-color: #d8d8d8; }
     header .main-visual h1 {
       text-align: center;
       font-size: 40px;
@@ -37,9 +35,21 @@ main .concept {
   text-align: center;
   height: 80vh; }
 main article hr {
-  width: 900px;
+  width: 850px;
   margin: 0 auto;
-  margin-bottom: 60px; }
+  margin-bottom: 100px; }
+main article .interview {
+  margin-bottom: 75px; }
+  main article .interview .taidan {
+    width: 850px;
+    margin: 0 auto;
+    height: 420px;
+    background-color: #d8d8d8; }
+  main article .interview h6 {
+    font-size: 1.4em;
+    padding-top: 10px; }
+  main article .interview h5 {
+    font-size: 2.8em; }
 
 footer {
   width: 100%;

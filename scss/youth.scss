@@ -8,7 +8,7 @@
 }
 
 .container{
-	width:900px;
+	width:850px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -20,7 +20,7 @@ nav{
 	position: fixed;
 	top: 0;
 	// background-color: rgba(216,216,216,0.88);
-	background-color: #d8d8d8;
+	// background-color: #d8d8d8;
 	width: 100%;
 	z-index: 30;
 	border-bottom: 1px solid #000;
@@ -31,14 +31,13 @@ nav{
 }
 
 header{
-	background-color: #888;
 	height: 100vh;
 	margin-top: 4em;
 	.main-visual{
 		height: 100vh;
 		width: 100%;
 		overflow: hidden;
-		background-color: red;
+		background-color:#d8d8d8;
 		h1{
 			text-align: center;
 			font-size: 40px;
@@ -55,12 +54,25 @@ main{
 	}
 	article{
 		hr{
-			width: 900px;
+			width: 850px;
 			margin: 0 auto;
-			margin-bottom: 60px;
+			margin-bottom: 100px;
 		}
 		.interview{
-			
+			margin-bottom: 75px;
+			.taidan{
+				width: 850px;
+				margin: 0 auto;
+				height: 420px;
+				background-color: #d8d8d8;
+			}
+			h6{
+				font-size: 1.4em;
+				padding-top: 10px;
+			}
+			h5{
+				font-size: 2.8em;
+			}
 		}
 	}
 }
