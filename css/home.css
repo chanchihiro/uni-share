@@ -26,12 +26,11 @@ header {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    background-image: url(../img/homebig1.png);
     background-position: fixed;
     position: relative;
     top: 0; }
     header .main-visual .img-home {
-      background-image: url(../img/homebig1.png);
+      background-image: url(../img/home_main.jpg);
       background-size: cover;
       height: 100%;
       background-attachment: fixed; }
@@ -64,7 +63,7 @@ main .big-com1 {
   main .big-com1 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/cover1.jpg");
+    background-image: url("../img/home_cat.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -81,7 +80,7 @@ main .small-com1 {
   main .small-com1 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/cover2.jpg");
+    background-image: url("../img/home_bikes.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -102,7 +101,7 @@ main .small-com2 {
   main .small-com2 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/cover3.jpg");
+    background-image: url("../img/home_hodou.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -123,7 +122,7 @@ main .big-com2 {
   main .big-com2 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/cover1.jpg");
+    background-image: url("../img/home_bikes.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -141,7 +140,8 @@ main .small-com3 {
   main .small-com3 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/cover3.jpg");
+    width: 30%;
+    background-image: url("../img/home_bills.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }

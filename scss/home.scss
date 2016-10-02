@@ -36,7 +36,7 @@ header{
 	height: 100vh;
 	.main-visual{
 		.img-home{
-			background-image: url(../img/homebig1.png);
+			background-image: url(../img/home_main.jpg);
 			background-size: cover;
 			height: 100%;
 			background-attachment:fixed;
@@ -44,7 +44,6 @@ header{
 		height: 100vh;
 		width: 100%;
 		overflow: hidden;
-		background-image: url(../img/homebig1.png);
 		background-position: fixed;
 		position: relative;
 		top: 0;
@@ -85,7 +84,7 @@ main{
 			// background-color: #000;
 			overflow: hidden;
 			height: 100%;
-			background-image: url("../img/cover1.jpg");
+			background-image: url("../img/home_cat.jpg");
 			background-size: cover;
 			background-position: center center;
 			background-attachment:fixed;
@@ -106,7 +105,7 @@ main{
 			// background-color: #000;
 			overflow: hidden;
 			height: 100%;
-			background-image: url("../img/cover2.jpg");
+			background-image: url("../img/home_bikes.jpg");
 			background-size: cover;
 			background-position: center center;
 			background-attachment:fixed;
@@ -131,7 +130,7 @@ main{
 			// background-color: #000;
 			overflow: hidden;
 			height: 100%;
-			background-image: url("../img/cover3.jpg");
+			background-image: url("../img/home_hodou.jpg");
 			background-size: cover;
 			background-position: center center;
 			background-attachment:fixed;
@@ -155,7 +154,7 @@ main{
 		.img-home{
 			overflow: hidden;
 			height: 100%;
-			background-image: url("../img/cover1.jpg");
+			background-image: url("../img/home_bikes.jpg");
 			background-size: cover;
 			background-position: center center;
 			background-attachment:fixed;
@@ -177,7 +176,8 @@ main{
 			// background-color: #000;
 			overflow: hidden;
 			height: 100%;
-			background-image: url("../img/cover3.jpg");
+			width: 30%;
+			background-image: url("../img/home_bills.jpg");
 			background-size: cover;
 			background-position: center center;
 			background-attachment:fixed;
