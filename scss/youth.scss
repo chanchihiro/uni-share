@@ -41,8 +41,8 @@ main{
 		width: 100%;
 		height: 100vh;
 		top: 0;
-		left: 0;
-		position:abdolute;
+		left: 100%;
+		position:absolute;
 		background-image: url(../img/enjinai_kiryu.jpg);
 		background-size: cover;
 		.title-text{
@@ -51,6 +51,10 @@ main{
 				font-size: 3em;
 				padding-top: 100px;
 			}
+			h2{
+				padding-top: 50px;
+				line-height: 3em;
+			}
 		}
 	}
 	.eye{
@@ -58,26 +62,105 @@ main{
 		height: 100vh;
 		top: 0;
 		left: 100%;
-		position:abdolute;
-		background-image: url(../img/enjinai_kiryu.jpg);
+		position:absolute;
+		background-image: url(../img/enjinai_ushio.jpg);
 		background-size: cover;
+		h1{
+			font-size: 4em;
+			position: absolute;
+			top: 100px;
+			left: 30px;
+		}
+		h2{
+			position:absolute;
+			bottom: 30px;
+			left: 50px;
+			font-size: 1.5em;
+			a{
+				color: #000;
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,0.5);
+			font-size: 0.9em;
+			letter-spacing: 0.2em;
+			position: absolute;
+			bottom: 30px;
+			right: 50px;
+		}
+
 	}
 	.stylist{
 		width: 100%;
 		height: 100vh;
 		top: 0;
-		left: 200%;
-		position:abdolute;
-		background-image: url(../img/enjinai_kiryu.jpg);
+		left: 0%;
+		position:absolute;
+		background-image: url(../img/enjinai_mori.jpg);
 		background-size: cover;
+		h1{
+			font-size: 4em;
+			position: absolute;
+			top: 100px;
+			right: 30px;
+		}
+		h2{
+			position:absolute;
+			bottom: 30px;
+			right: 50px;
+			font-size: 1.5em;
+			a{
+				color: #000;
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,0.5);
+			font-size: 0.9em;
+			letter-spacing: 0.2em;
+			position: absolute;
+			bottom: 30px;
+			left: 50px;
+		}
 	}
 	.dareka{
 		width: 100%;
 		height: 100vh;
 		top: 0;
 		left: 300%;
-		position:abdolute;
-		background-image: url(../img/enjinai_kiryu.jpg);
+		position:absolute;
+		background-image: url(../img/enjinai_ibata.jpg);
 		background-size: cover;
 	}
+		h1{
+			font-size: 4em;
+			position: absolute;
+			top: 100px;
+			left: 30px;
+		}
+		h2{
+			position:absolute;
+			bottom: 30px;
+			left: 50px;
+			font-size: 1.5em;
+			a{
+				color: #000;
+			}
+		}
+		p{
+			width: 500px;
+			box-sizing:border-box;
+			padding: 30px;
+			background-color: rgba(255,255,255,0.5);
+			font-size: 0.9em;
+			letter-spacing: 0.2em;
+			position: absolute;
+			bottom: 30px;
+			right: 50px;
+		}
 }
