@@ -92,7 +92,7 @@ main .small-com1 {
     top: 0;
     box-sizing: border-box;
     padding: 3%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff; }
 main .small-com2 {
   height: 100vh;
@@ -113,7 +113,7 @@ main .small-com2 {
     top: 0;
     box-sizing: border-box;
     padding: 3%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff; }
 main .big-com2 {
   height: 50vh;
@@ -158,7 +158,36 @@ main .small-com3 {
 
 footer {
   width: 100%;
-  height: 180px; }
+  height: 180px;
+  position: relative; }
+  footer h4 {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    color: #fff;
+    background-color: #000;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: normal;
+    cursor: pointer; }
+    footer h4 a {
+      text-decoration: none;
+      color: #fff; }
+  footer .sns {
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px 0; }
+    footer .sns p {
+      padding-bottom: 10px; }
+    footer .sns .icon {
+      float: left;
+      width: 40px;
+      font-size: 25px;
+      color: #000; }
   footer p {
     text-align: center;
     padding-top: 30px;

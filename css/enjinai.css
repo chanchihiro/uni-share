@@ -42,6 +42,22 @@ main article {
       font-weight: normal; }
     main article .person .text p {
       font-size: 12px; }
+  main article .p1 .image {
+    background-image: url(../img/enjinai_kiryu.jpg);
+    background-size: cover; }
+  main article .p2 .image {
+    background-image: url(../img/enjinai_ushio.jpg);
+    background-size: cover;
+    background-position: 0 30%; }
+  main article .p3 .image {
+    background-image: url(../img/enjinai_ibata.jpg);
+    background-size: cover; }
+  main article .p4 .image {
+    background-image: url(../img/enjinai_mori.jpg);
+    background-size: cover; }
+  main article .p5 .image {
+    background-image: url(../img/enjinai_ibata.jpg);
+    background-size: cover; }
 
 footer {
   width: 100%;

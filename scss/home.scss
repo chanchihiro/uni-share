@@ -118,7 +118,7 @@ main{
 			top: 0;
 			box-sizing:border-box;
 			padding:3%;
-			background-color: rgba(0,0,0,0.9);
+			background-color: rgba(0,0,0,0.8);
 			color: #fff;
 		}
 	}
@@ -143,7 +143,7 @@ main{
 			top: 0;
 			box-sizing:border-box;
 			padding:3%;
-			background-color: rgba(0,0,0,0.9);
+			background-color: rgba(0,0,0,0.8);
 			color: #fff;
 		}
 	}
@@ -199,6 +199,40 @@ main{
 footer{
 	width: 100%;
 	height: 180px;
+	position: relative;
+	h4{
+		position: absolute;
+		text-align: center;
+		top: 0;
+		left: 50%;
+		margin-left: -25px;
+		color: #fff;
+		background-color: #000;
+		width: 50px;
+		height: 20px;
+		font-size: 10px;
+		font-weight: normal;
+		cursor: pointer;
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+	.sns{
+		text-align: center;
+		width: 120px;
+		margin: 0 auto;
+		padding: 10px 0;
+		p{
+			padding-bottom: 10px;
+		}
+		.icon{
+			float: left;
+			width: 40px;
+			font-size: 25px;
+			color: #000;
+		}
+	}
 	p{
 		text-align: center;
 		padding-top: 30px;

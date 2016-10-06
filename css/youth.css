@@ -3,7 +3,7 @@
   padding: 0; }
 
 .container {
-  width: 850px;
+  width: 700px;
   margin: 0 auto;
   overflow: hidden; }
 
@@ -33,7 +33,15 @@ header {
 
 main .concept {
   text-align: center;
-  height: 80vh; }
+  height: 80vh;
+  padding-top: 50px; }
+  main .concept h4 {
+    font-size: 2em; }
+  main .concept #wakamono {
+    padding-bottom: 20px; }
+  main .concept p {
+    padding-top: 50px;
+    font-size: 1em; }
 main article hr {
   width: 850px;
   margin: 0 auto;
@@ -46,56 +54,58 @@ main article .interview {
     height: 420px;
     background-color: #d8d8d8; }
   main article .interview h6 {
-    font-size: 1.4em;
+    font-size: 1.1em;
     padding-top: 10px; }
   main article .interview h5 {
-    font-size: 2.8em; }
-
-.sns {
-  margin: 100px auto 200px;
-  width: 850px;
-  overflow: hidden;
-  position: relative; }
-  .sns a {
-    display: inline-block;
-    margin: 0 60px; }
-  .sns .icon {
-    float: left;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    text-align: center;
-    background-color: #eee;
-    position: relative; }
-    .sns .icon:last-child {
-      margin-right: 0; }
-    .sns .icon .fa {
-      width: 50px;
-      font-size: 60px;
-      position: absolute;
-      top: 50%;
-      margin-top: -30px;
-      left: 50%;
-      margin-left: -23px;
-      color: #fff; }
+    font-size: 2em;
+    padding-bottom: 60px; }
 
 .link {
-  width: 850px;
+  width: 700px;
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 150px; }
   .link .con {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     float: left;
-    margin-right: 50px;
+    margin-right: 100px;
     background-color: #000; }
     .link .con:last-child {
       margin-right: 0; }
 
 footer {
   width: 100%;
-  height: 180px; }
+  height: 180px;
+  position: relative; }
+  footer h4 {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    color: #fff;
+    background-color: #000;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: normal;
+    cursor: pointer; }
+    footer h4 a {
+      text-decoration: none;
+      color: #fff; }
+  footer .sns {
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px 0; }
+    footer .sns p {
+      padding-bottom: 10px; }
+    footer .sns .icon {
+      float: left;
+      width: 40px;
+      font-size: 25px;
+      color: #000; }
   footer p {
     text-align: center;
     padding-top: 30px;
