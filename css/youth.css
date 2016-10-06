@@ -22,8 +22,7 @@ nav {
 main {
   position: relative;
   height: 100vh;
-  overflow: hidden;
-  object-fit: cover; }
+  overflow: hidden; }
   main .top {
     width: 100%;
     height: 100vh;
@@ -80,6 +79,7 @@ main {
     background-size: cover; }
     main .stylist h1 {
       font-size: 4em;
+      width: 350px;
       position: absolute;
       top: 100px;
       right: 30px; }
