@@ -26,8 +26,20 @@ header {
   header nav {
     position: fixed;
     width: 100%;
-    top: 30px;
-    z-index: 40; }
+    top: 0;
+    height: 60px;
+    z-index: 40;
+    line-height: 60px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    header nav:hover {
+      background-color: #fff; }
+    header nav img {
+      width: 80px;
+      padding-top: 10px; }
     header nav h3 {
       display: inline;
       margin-left: 30px; }
@@ -41,9 +53,14 @@ header {
         header nav ul li a {
           color: #000;
           text-decoration: none;
-          display: block; }
+          display: block;
+          -webkit-transition: all .5s ease;
+          -moz-transition: all .5s ease;
+          -ms-transition: all .5s ease;
+          -o-transition: all .5s ease;
+          transition: all .5s ease; }
           header nav ul li a:hover {
-            border-bottom: 1.8px solid #000; }
+            color: rgba(0, 0, 0, 0.5); }
   header .main-visual img {
     width: 100%; }
 
