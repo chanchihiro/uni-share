@@ -36,7 +36,8 @@ header {
     -o-transition: all .5s ease;
     transition: all .5s ease; }
     header nav:hover {
-      background-color: #fff; }
+      background-color: #fff;
+      border-bottom: 1px #000 solid; }
     header nav img {
       width: 80px;
       padding-top: 10px; }
