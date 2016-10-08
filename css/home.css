@@ -111,6 +111,8 @@ nav {
         width: 40px;
         font-size: 25px;
         color: #000; }
+      .g-nav footer .sns #follow {
+        padding-top: 0; }
     .g-nav footer #copy {
       text-align: center;
       padding-top: 30px;
@@ -144,10 +146,12 @@ header {
         font-size: 9em;
         letter-spacing: 0.1em;
         line-height: 100%;
-        padding-bottom: 15px; }
+        padding-bottom: 15px;
+        color: #fff; }
       header .main-visual .text h2 {
-        font-size: 1em;
-        letter-spacing: 0.1em; }
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
+        color: #fff; }
 
 main .msg, main .msg2 {
   height: 100vh;
@@ -299,19 +303,21 @@ footer {
     width: 120px;
     margin: 0 auto;
     padding: 10px 0; }
-    footer .sns p {
-      padding-bottom: 10px; }
+    footer .sns #follow {
+      padding-bottom: 10px;
+      font-size: 10px;
+      padding-top: 30px; }
     footer .sns .icon {
       float: left;
       width: 40px;
       font-size: 25px;
       color: #000; }
-  footer .follow {
+  footer p {
     text-align: center;
     padding-top: 30px;
     font-size: 10px;
     letter-spacing: 0.2em; }
-    footer .follow #c {
+    footer p #c {
       font-size: 12px;
       margin-top: 3px; }
 
