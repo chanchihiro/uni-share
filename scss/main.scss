@@ -37,7 +37,7 @@ header{
 	overflow: hidden;
 	background-color: #888;
 	nav{
-		position: fixed;
+		position: absolute;
 		width: 100%;
 		top: 0;
 		height: 60px;
@@ -65,7 +65,7 @@ header{
 			li{
 				list-style-type: none;
 				float: left;
-				padding: 0 10px;
+				padding: 0 12px;
 				a{
 					color: #000;
 					text-decoration: none;
@@ -86,6 +86,37 @@ header{
 		img{
 			width: 100%;
 		}
+	}
+}
+
+.circles{
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	height: 300px;
+	width: 50px;
+	display: none;
+	.circle{
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+		background-color: rgba(33,33,33,0.6);
+		position: absolute;
+	}
+	.maru1{
+		top: 0;
+	}
+	.maru2{
+		top: 40px;
+	}
+	.maru3{
+		top: 80px;
+	}
+	.maru4{
+		top: 120px;
+	}
+	.maru5{
+		top: 160px;
 	}
 }
 

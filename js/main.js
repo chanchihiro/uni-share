@@ -9,13 +9,83 @@ $(function(){
 
 	//クリックするとcoverを変更
 	$("#one").on("click",function(){
-		$(".main-cover").attr("src","img/cover1.jpg");
+		$(".big-cover").attr("src","img/cover1.jpg");
 	});
 	$("#two").on("click",function(){
-		$(".main-cover").attr("src","img/cover2.jpg");
+		$(".big-cover").attr("src","img/cover2.jpg");
 	});
 	$("#three").on("click",function(){
-		$(".main-cover").attr("src","img/cover3.jpg");
+		$(".big-cover").attr("src","img/cover3.jpg");
 	});
 
+	//位置ナビゲーションの場所
+	var $window = $(window);
+	var $magazine = $(".magazine");
+	var $cover = $(".cover");
+	var $contents = $(".contents");
+	var $web = $(".webcontents");
+	var $stock = $(".stock");
+	var magazineOffsetTop = $magazine.offset().top;
+	var coverOffsetTop = $cover.offset().top -300;
+	var contentsOffsetTop = $contents.offset().top -100;
+	var webcontentsOffsetTop = $web.offset().top -200;
+	var stockOffsetTop = $stock.offset().top -150;
+	var duration = 200;
+
+	$window.on("scroll",function(){
+		if($window.scrollTop() > magazineOffsetTop - 300){
+			$(".circles").fadeIn();
+		}else{
+			$(".circles").fadeOut();
+		}
+
+		if(magazineOffsetTop-300 < $window.scrollTop() && $window.scrollTop() < coverOffsetTop){
+			$(".maru1").stop().animate({
+				"background-color":"red"
+			},duration);
+		}else{
+			$(".maru1").stop().animate({
+				"background-color":"rgba(33,33,33,0.6)"
+			},duration);
+		}
+
+		if(coverOffsetTop < $window.scrollTop() && $window.scrollTop() < contentsOffsetTop){
+			$(".maru2").stop().animate({
+				"background-color":"red"
+			},duration);
+		}else{
+			$(".maru2").stop().animate({
+				"background-color":"rgba(33,33,33,0.6)"
+			},duration);
+		}
+
+		if(contentsOffsetTop < $window.scrollTop() && $window.scrollTop() < webcontentsOffsetTop){
+			$(".maru3").stop().animate({
+				"background-color":"red"
+			},duration);
+		}else{
+			$(".maru3").stop().animate({
+				"background-color":"rgba(33,33,33,0.6)"
+			},duration);
+		}
+		if(webcontentsOffsetTop < $window.scrollTop() && $window.scrollTop() < stockOffsetTop){
+			$(".maru4").stop().animate({
+				"background-color":"red"
+			},duration);
+		}else{
+			$(".maru4").stop().animate({
+				"background-color":"rgba(33,33,33,0.6)"
+			},duration);
+		}
+
+		if($window.scrollTop() > stockOffsetTop){
+			$(".maru5").stop().animate({
+				"background-color":"red"
+			},duration);
+		}else{
+			$(".maru5").stop().animate({
+				"background-color":"rgba(33,33,33,0.6)"
+			},duration);
+		}
+	});
 });
