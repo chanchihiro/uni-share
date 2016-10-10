@@ -61,13 +61,12 @@ header {
     height: 60px;
     z-index: 40;
     line-height: 60px;
+    color: #fff;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease; }
-    header nav:hover {
-      background-color: #fff; }
     header nav img {
       width: 80px;
       padding-top: 10px; }
@@ -82,7 +81,7 @@ header {
         float: left;
         padding: 0 12px; }
         header nav ul li a {
-          color: #000;
+          color: #fff;
           text-decoration: none;
           display: block;
           -webkit-transition: all .5s ease;
@@ -92,8 +91,12 @@ header {
           transition: all .5s ease; }
           header nav ul li a:hover {
             color: rgba(0, 0, 0, 0.5); }
-  header .main-visual img {
-    width: 100%; }
+  header .main-visual {
+    position: relative; }
+    header .main-visual img {
+      width: 100%;
+      position: absolute;
+      top: -150px; }
 
 .circles {
   position: fixed;
@@ -146,7 +149,7 @@ header {
 
 .cover {
   width: 100%;
-  margin: 150px 0; }
+  margin: 0 0 150px; }
   .cover .container {
     overflow: hidden;
     position: relative;
@@ -160,8 +163,7 @@ header {
     text-align: center;
     font-size: 2.8em;
     padding-bottom: 40px;
-    font-family: kozG-H;
-    letter-spacing: 0.1em; }
+    font-family: kozG-EL; }
   .cover .select {
     float: left;
     overflow: hidden;
@@ -193,8 +195,8 @@ header {
   .contents2 h3 {
     text-align: center;
     font-size: 2.8em;
-    font-family: kozG-H;
-    letter-spacing: 0.1em; }
+    font-family: kozG-EL;
+    letter-spacing: 0.05em; }
   .contents2 h4 {
     padding-bottom: 30px; }
   .contents2 p {
@@ -219,11 +221,11 @@ header {
     text-align: center;
     font-size: 2.8em;
     padding-bottom: 50px;
-    font-family: kozG-H;
-    letter-spacing: 0.1em; }
+    font-family: kozG-EL;
+    letter-spacing: 0.05em; }
   .webcontents .webmaga {
-    width: 233px;
-    height: 233px;
+    width: 266px;
+    height: 266px;
     border: 1px #fff solid;
     box-sizing: border-box;
     background-color: #000;
@@ -238,15 +240,19 @@ header {
   .stock h3 {
     text-align: center;
     font-size: 2.8em;
-    padding: 30px 0; }
+    padding: 30px 0;
+    font-family: KozG-EL; }
   .stock .left {
     width: 420px;
     float: left; }
     .stock .left h4 {
       font-size: 2.3em;
-      border-left: #fff solid 8px;
-      padding-left: 10px;
-      margin-bottom: 20px; }
+      border-left: #fff solid 5px;
+      padding-left: 15px;
+      margin-bottom: 20px;
+      font-weight: normal;
+      font-family: KozG-L;
+      line-height: 1.2; }
     .stock .left p {
       font-size: 1.2em; }
   .stock .right {
@@ -257,8 +263,9 @@ header {
     .stock .right h5 {
       font-size: 2em;
       border-left: #fff solid 4px;
-      padding-left: 6px;
-      margin-bottom: 20px; }
+      padding-left: 10px;
+      margin-bottom: 20px;
+      line-height: 1.2; }
   .stock .right2 {
     width: 130px;
     float: left; }
@@ -267,8 +274,9 @@ header {
     .stock .right2 h5 {
       font-size: 2em;
       border-left: #fff solid 4px;
-      padding-left: 6px;
-      margin-bottom: 20px; }
+      padding-left: 10px;
+      margin-bottom: 20px;
+      line-height: 1.2; }
 
 .contact {
   width: 100%;
@@ -280,7 +288,8 @@ header {
   .contact h3 {
     text-align: center;
     font-size: 2.8em;
-    padding: 30px 0; }
+    padding: 30px 0;
+    font-family: KozG-EL; }
   .contact a {
     text-decoration: none;
     border: solid #fff 1px;
@@ -329,7 +338,7 @@ footer {
   footer p {
     text-align: center;
     padding-top: 30px;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.2em; }
     footer p #c {
       font-size: 12px;

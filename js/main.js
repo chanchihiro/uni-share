@@ -9,13 +9,13 @@ $(function(){
 
 	//クリックするとcoverを変更
 	$("#one").on("click",function(){
-		$(".big-cover").attr("src","img/cover1.jpg");
+		$(".big-cover").attr("src","img/cover_onodera.png");
 	});
 	$("#two").on("click",function(){
-		$(".big-cover").attr("src","img/cover2.jpg");
+		$(".big-cover").attr("src","img/cover_komiyama.png");
 	});
 	$("#three").on("click",function(){
-		$(".big-cover").attr("src","img/cover3.jpg");
+		$(".big-cover").attr("src","img/cover_kissho.png");
 	});
 
 	//位置ナビゲーションの場所
