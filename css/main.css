@@ -184,7 +184,7 @@ header {
   height: 50vh;
   width: 100%;
   background-size: cover;
-  background-image: url(../img/home_bikes.jpg);
+  background-image: url(../img/main_back.JPG);
   background-attachment: fixed; }
 
 .contents2 {
@@ -212,7 +212,6 @@ header {
     width: 800px; }
 
 .webcontents {
-  height: 100vh;
   width: 100%;
   padding: 120px 0;
   background-color: #000;
@@ -224,14 +223,15 @@ header {
     font-family: kozG-EL;
     letter-spacing: 0.05em; }
   .webcontents .webmaga {
-    width: 266px;
-    height: 266px;
-    border: 1px #fff solid;
+    width: 400px;
+    height: 400px;
     box-sizing: border-box;
-    background-color: #000;
+    background-color: #fff;
     float: left; }
     .webcontents .webmaga:hover {
       background-color: #888; }
+    .webcontents .webmaga img {
+      width: 100%; }
 
 .stock {
   width: 100%;
