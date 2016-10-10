@@ -6,6 +6,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: kozG-L;
 }
 
 .container{
@@ -128,19 +129,25 @@ header{
 	.title{
 		font-weight: normal;
 		font-size: 14px;
+		font-family: kozG-M;
+		float: right;
+		margin-top: 20px;
 	}
 	h1{
 		// text-align: center;
 		padding: 10px 0 30px 0;
 		font-size: 2.8em;
 		font-weight: normal;
-		text-align: center;
+		margin-left: -20px;
+		// text-align: center;
+		font-family: kozG-H;
 	}
 	p{
 		letter-spacing: 0.18em;
 		font-size: 13px;
-		line-height: 2.1em;
-		text-align: center;
+		line-height: 1.9em;
+		// text-align: center;
+		font-family: kozG-M;
 		.big{
 			font-size: 2em;
 		}
@@ -166,6 +173,8 @@ header{
 		text-align: center;
 		font-size: 2.8em;
 		padding-bottom: 40px;
+		font-family: kozG-H;
+		letter-spacing: 0.1em;
 		// padding-bottom: 100px;
 	}
 	.select{
@@ -206,6 +215,8 @@ header{
 	h3{
 		text-align: center;
 		font-size: 2.8em;
+		font-family: kozG-H;
+		letter-spacing: 0.1em;
 	}
 	h4{
 		padding-bottom: 30px;
@@ -215,7 +226,8 @@ header{
 		margin-top: 50px;
 		padding-bottom: 70px;
 		letter-spacing: 0.2em;
-		line-height: 1.33;
+		line-height: 1.5;
+		font-family: kozG-R;
 	}
 	img{
 		width: 800px;
@@ -235,6 +247,8 @@ header{
 		text-align: center;
 		font-size: 2.8em;
 		padding-bottom: 50px;
+		font-family: kozG-H;
+		letter-spacing: 0.1em;
 	}
 	.webmaga{
 		width: 233px;
@@ -257,6 +271,8 @@ header{
 		text-align: center;
 		font-size: 2.8em;
 		padding: 30px 0;
+		// font-family: kozG-H;
+		// letter-spacing: 0.1em;
 	}
 	.left{
 		width: 420px;
