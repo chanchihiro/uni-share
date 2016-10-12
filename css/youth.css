@@ -14,6 +14,9 @@
   font-family: kozG-R;
   src: url(../fonts_web/KozGoPro-Regular.otf) format("opentype"); }
 @font-face {
+  font-family: kozG-B;
+  src: url(../fonts_web/KozGoPro-Bold.otf) format("opentype"); }
+@font-face {
   font-family: kozM-B;
   src: url(../fonts_web/KozMinPro-Bold.otf) format("opentype"); }
 @font-face {
@@ -113,7 +116,6 @@ nav {
           text-decoration: none;
           color: #000;
           font-size: 2.4em;
-          font-family: kozG-M;
           line-height: 2;
           -webkit-transition: color .25s ease;
           -moz-transition: color .25s ease;
@@ -150,57 +152,54 @@ nav {
         font-size: 12px;
         margin-top: 3px; }
 
-.loop {
-  width: 100%;
-  height: 100vh;
-  z-index: 10;
-  top: 0;
-  position: fixed;
-  font-family: kozG-H; }
-  .loop .l-bar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    line-height: 100vh;
-    font-size: 2em;
-    padding: 0 15px;
-    color: rgba(0, 0, 0, 0.8);
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .loop .l-bar:hover {
-      background-color: rgba(255, 255, 255, 0.8);
-      color: rgba(0, 0, 0, 0.3); }
-  .loop .r-bar {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    line-height: 100vh;
-    font-size: 2em;
-    padding: 0 15px;
-    color: rgba(0, 0, 0, 0.8);
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .loop .r-bar:hover {
-      background-color: rgba(255, 255, 255, 0.8);
-      color: rgba(0, 0, 0, 0.3); }
-
 main {
   position: relative;
   height: 100vh;
+  width: 100%;
   overflow: hidden;
   top: 0; }
+  main .l-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+    line-height: 100vh;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+    main .l-bar:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: rgba(0, 0, 0, 0.3); }
+  main .r-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+    line-height: 100vh;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+    main .r-bar:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: rgba(0, 0, 0, 0.3); }
   main .top {
     width: 100%;
     height: 100vh;
@@ -215,45 +214,16 @@ main {
         font-size: 4.5em;
         padding-top: 100px;
         width: 100%;
-        font-family: kozG-H;
-        letter-spacing: 0.04em; }
+        font-family: kozG-M;
+        letter-spacing: 0.04em;
+        font-style: italic; }
       main .top .title-text h2 {
         padding-top: 50px;
-        line-height: 3em;
+        line-height: 2.5em;
+        font-size: 1.3em;
         width: 100%;
-        font-family: kozG-H; }
+        font-family: kozG-R; }
   main .eye {
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: none;
-    position: absolute;
-    background-image: url(../img/youth_inada.jpg);
-    background-size: cover; }
-    main .eye h1 {
-      font-size: 4em;
-      position: absolute;
-      top: 100px;
-      left: 30px; }
-    main .eye h2 {
-      position: absolute;
-      bottom: 30px;
-      left: 50px;
-      font-size: 1.5em; }
-      main .eye h2 a {
-        color: #000; }
-    main .eye p {
-      width: 500px;
-      box-sizing: border-box;
-      padding: 30px;
-      background-color: rgba(255, 255, 255, 0.5);
-      font-size: 0.9em;
-      letter-spacing: 0.2em;
-      position: absolute;
-      bottom: 30px;
-      right: 50px; }
-  main .stylist {
     width: 100%;
     height: 100vh;
     top: 0;
@@ -262,29 +232,73 @@ main {
     position: absolute;
     background-image: url(../img/youth_inada2.jpg);
     background-size: cover; }
-    main .stylist h1 {
-      font-size: 4em;
-      width: 350px;
+    main .eye h3 {
+      font-size: 1.3em;
       position: absolute;
+      letter-spacing: 0.1em;
       top: 100px;
-      right: 30px; }
-    main .stylist h2 {
+      left: 100px;
+      font-family: KozG-B; }
+      main .eye h3 #name {
+        font-size: 1.4em; }
+    main .eye h4 {
       position: absolute;
       bottom: 30px;
-      right: 50px;
-      font-size: 1.5em; }
-      main .stylist h2 a {
+      left: 100px;
+      letter-spacing: 0.1em;
+      font-size: 1.5em;
+      font-family: KozG-R; }
+      main .eye h4 a {
         color: #000; }
+        main .eye h4 a:hover {
+          color: #fff; }
+    main .eye p {
+      width: 500px;
+      box-sizing: border-box;
+      padding: 30px;
+      background-color: white;
+      font-size: 0.9em;
+      letter-spacing: 0;
+      position: absolute;
+      bottom: 30px;
+      right: 100px;
+      font-family: KozG-M; }
+  main .stylist {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    position: absolute;
+    background-image: url(../img/youth_hattori2.jpg);
+    background-size: cover; }
+    main .stylist h3 {
+      font-size: 4em;
+      position: absolute;
+      letter-spacing: 0.1em;
+      top: 100px;
+      right: 100px;
+      font-family: KozG-H; }
+    main .stylist h4 {
+      position: absolute;
+      bottom: 30px;
+      right: 100px;
+      font-size: 1.5em; }
+      main .stylist h4 a {
+        color: #fff; }
+        main .stylist h4 a:hover {
+          color: #000; }
     main .stylist p {
       width: 500px;
       box-sizing: border-box;
       padding: 30px;
       background-color: rgba(255, 255, 255, 0.5);
       font-size: 0.9em;
-      letter-spacing: 0.2em;
+      letter-spacing: 0;
       position: absolute;
       bottom: 30px;
-      left: 50px; }
+      left: 100px;
+      font-family: KozG-R; }
   main .dareka {
     width: 100%;
     height: 100vh;

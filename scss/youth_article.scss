@@ -7,12 +7,8 @@
 	padding: 0;
 }
 
-.wrapper{
-	display: none;
-}
-
 .container{
-	width:850px;
+	width:950px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -21,36 +17,7 @@ body{
 	// background-image: url(../img/enjinai_logo.png);
 	background-size: 100%;
 	background-position: center center;
-}
-
-.start{
-	width: 100%;
-	height: 100vh;
-	background-color: rgba(0,0,0,1);
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	text-align: center;
-	display: none;
-	.batu{
-		position: absolute;
-		right: 40px;
-		top: 0;
-		color: #fff;
-		font-size: 50px;
-		cursor: pointer;
-	}
-	img{
-		width: 550px;
-		margin: 30px 0;
-	}
-	p{
-		color: #fff;
-		line-height: 2.4;
-		letter-spacing: 0.1em;
-		font-size: 1.3em;
-		font-family: KozM-H;
-	}
+	font-family: KozG-R;
 }
 
 nav{
@@ -193,83 +160,48 @@ nav{
 		}
 	}
 }
-
 main{
-	article{
-		margin-top: 100px;
+	.youth-hero{
+		width: 100%;
+		height: auto;
+		margin-top: 56px;
+		img{
+			width: 100%;
+		}
+	}
+	h1{
+		text-align: center;
+		margin-top: 40px;
+	}
+	p{
+		text-align: center;
+		color: #888;
+		margin-bottom: 60px;
+	}
+	.container{
+		p{
+			text-align: left;
+			color: #000;
+			letter-spacing: 0.01em;
+			line-height: 1.8;
+			font-size: 0.9em;
+			a{
+				text-decoration: none;
+			}
+		}
+		.share{
+			height: 100px;
+			overflow: hidden;
+			// background-color: #000;
+			margin-bottom: 40px;
+			text-align: center;
+		}
 		h3{
 			text-align: center;
-		}
-		h1{
-			text-align: center;
-			width: 100%;
-			font-size: 120px;
-			margin-bottom: 80px;
-		}
-		hr{
-			width: 850px;
 			margin: 0 auto;
-			margin-bottom: 30px;
-		}
-		.person{
-			width: 350px;
-			float: left;
-			overflow: hidden;
+			width: 700px;
+			font-size: 1.4em;
 			margin-bottom: 50px;
-			&:nth-child(even){
-				margin-right: 100px;
-			}
-			.image{
-				width: 100%;
-				height: 250px;
-				overflow: hidden;
-				background-color: #d8d8d8;
-			}
-			.text{
-				h5{
-					font-size: 18px;
-					font-weight: normal;
-					padding: 10px 0 2px 0;
-				}
-				h4{
-					font-size: 24px;
-					font-weight: normal;
-				}
-				p{
-					font-size: 12px;
-				}
-			}
-		}
-		.p1{
-			.image{
-				background-image: url(../img/enjinai_kiryu.jpg);
-				background-size: cover;
-			}
-		}
-		.p2{
-			.image{
-				background-image: url(../img/enjinai_ushio.jpg);
-				background-size: cover;
-				background-position: 0 30%;
-			}
-		}
-		.p3{
-			.image{
-				background-image: url(../img/enjinai_ibata.jpg);
-				background-size: cover;
-			}
-		}
-		.p4{
-			.image{
-				background-image: url(../img/enjinai_mori.jpg);
-				background-size: cover;
-			}
-		}
-		.p5{
-			.image{
-				background-image: url(../img/enjinai_ibata.jpg);
-				background-size: cover;
-			}
 		}
 	}
 }
@@ -313,7 +245,7 @@ footer{
 	}
 	p{
 		text-align: center;
-		padding-top: 30px;
+		padding-top: 40px;
 		font-size: 10px;
 		letter-spacing: 0.2em;
 		#c{

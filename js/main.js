@@ -7,6 +7,23 @@ $(function(){
 		offset: "50px",
 	}) ;
 
+	//トップの自動更新
+	$(".main-visual").each(function(){
+
+		var $slides = $(this).find("img");
+		var slidecount = $slides.length;
+		var currentIndex = 0;
+
+		setInterval(showNextSlide,8000);
+
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slidecount;
+			$slides.eq(currentIndex).stop().fadeOut(2500);
+			$slides.eq(nextIndex).stop().fadeIn(2500);
+			currentIndex = nextIndex;
+		}
+	});
+
 	//クリックするとcoverを変更
 	$("#one").on("click",function(){
 		$(".big-cover").attr("src","img/cover_onodera.png");

@@ -83,10 +83,22 @@ header{
 	}
 	.main-visual{
 		position: relative;
-		img{
+		#hero1{
 			width: 100%;
 			position: absolute;
 			top: -150px;
+		}
+		#hero2{
+			width: 100%;
+			position: absolute;
+			top:0px;
+			display: none;
+		}
+		#hero3{
+			width: 100%;
+			position: absolute;
+			top:-100px;
+			display: none;
 		}
 	}
 }
@@ -228,6 +240,9 @@ header{
 		letter-spacing: 0.2em;
 		line-height: 1.5;
 		font-family: kozG-R;
+		#person{
+			font-size: 10px;
+		}
 	}
 	img{
 		width: 800px;
@@ -261,6 +276,9 @@ header{
 		}
 		img{
 			width: 100%;
+			&:hover{
+				opacity: 0.5;
+			}
 		}
 	}
 }

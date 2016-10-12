@@ -1,3 +1,36 @@
+@font-face {
+  font-family: kozG-EL;
+  src: url(../fonts_web/KozGoPro-ExtraLight.otf) format("opentype"); }
+@font-face {
+  font-family: kozG-H;
+  src: url(../fonts_web/KozGoPro-Heavy.otf) format("opentype"); }
+@font-face {
+  font-family: kozG-L;
+  src: url(../fonts_web/KozGoPro-Light.otf) format("opentype"); }
+@font-face {
+  font-family: kozG-M;
+  src: url(../fonts_web/KozGoPro-Medium.otf) format("opentype"); }
+@font-face {
+  font-family: kozG-R;
+  src: url(../fonts_web/KozGoPro-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: kozG-B;
+  src: url(../fonts_web/KozGoPro-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: kozM-B;
+  src: url(../fonts_web/KozMinPro-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: kozM-EL;
+  src: url(../fonts_web/KozMinPro-ExtraLight.otf) format("opentype"); }
+@font-face {
+  font-family: kozM-M;
+  src: url(../fonts_web/KozMinPro-Medium.otf) format("opentype"); }
+@font-face {
+  font-family: kozM-R;
+  src: url(../fonts_web/KozMinPro-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: kozM-H;
+  src: url(../fonts_web/KozMinPro-Heavy.otf) format("opentype"); }
 * {
   margin: 0;
   padding: 0; }
@@ -13,8 +46,13 @@ nav {
   width: 100%;
   z-index: 30;
   height: 56px;
-  background-color: #fff;
-  box-shadow: 0px 0px 1px 1px #888; }
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+  nav:hover {
+    background-color: white; }
   nav h3 {
     text-align: center;
     padding-top: 8px; }
@@ -234,9 +272,9 @@ main .big-com2 {
   main .big-com2 .img-home {
     overflow: hidden;
     height: 100%;
-    background-image: url("../img/home_bikes.jpg");
+    background-image: url("../img/home_isetan.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center 10%;
     background-attachment: fixed; }
   main .big-com2 .comment {
     width: 100%;
@@ -257,7 +295,7 @@ main .small-com3 {
     overflow: hidden;
     height: 100%;
     width: 30%;
-    background-image: url("../img/home_bills.jpg");
+    background-image: url("../img/home_bike.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
